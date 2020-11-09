@@ -26,6 +26,8 @@ export const SearchBox = () => {
       >
         Search
       </button>
+      
+      {/* Temporary SearchTermDisplay - to delete in future */}
       <div className='searchTermDisplay'>
         <p>Your current search is:</p>
         <span>{searchTerm}</span>
